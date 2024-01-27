@@ -1,0 +1,77 @@
+body > .scroll-wrapper {
+  margin: 60px 0;
+  height: calc(100% - 120px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  background-color: #f9423a;
+}
+/* login page */
+
+.fullwidth-background.bg-2 {
+  margin: 0%;
+  padding: 120px 0 80px 0;
+  position: relative;
+  z-index: 1;
+  background-image: none;
+  background-size: cover;
+} /**şüpeli ^  **/
+
+.login-block {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 672px;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.login-block .logo {
+  display: block;
+  margin: -35px auto 30px auto;
+  text-align: center;
+}
+
+.login-block .form-group + .form-group {
+  margin-top: 13px;
+}
+
+.login-block .form-group input {
+  line-height: 44px;
+  height: 44px;
+}
+
+.peakBorder {
+  border: 2px;
+  background: black;
+  padding: 5% 20%;
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+  margin-left: 23%;
+  text-decoration: none;
+  font-family: Noah Bold, sans-serif !important ;
+}
+
+.peakStil {
+  font-size: small;
+  margin-left: 35%;
+  color: #b0b0b0;
+  text-decoration: none;
+  font-family: Noah Bold, sans-serif !important ;
+}
+
+.peakText {
+  font-size: medium !important;
+  border-radius: 8px;
+  background: #f3f3f3;
+  font-family: Noah Bold, sans-serif !important ;
+  font-weight: bold;
+  border: 0 !important;
+  color: #c2cbd0;
+}

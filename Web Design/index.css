@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /*1rem = 10px*/
+}
+
+body,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+/*******************/
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+.arkaplan {
+  background-color: #25373d;
+}
+.kapsayici {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.ust {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
+}
+
+.ust .logo {
+  text-align: center;
+  color: #fff;
+}
+.ust .logo h1 {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+.ust .logo h1::first-letter {
+  color: #fcb941;
+}
+
+.ust .logo h1:hover::first-letter {
+  background-color: #fcb941;
+  color: #25373d;
+}
+
+.ust .logo h2 {
+  font-size: 2.4rem;
+}
+
+.ust .menu ul {
+  display: flex;
+}
+.ust .menu ul li {
+  margin: 0 1rem;
+}
+
+.ust .menu ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 0 2rem;
+}
+.ust .menu ul a:hover {
+  color: #fcb941;
+}
+
+.orta .bolum1 {
+  margin-top: 20px;
+  border: 10px solid #25373d;
+  padding: 20px;
+}
+
+.orta .bolum1 img {
+  display: block;
+  width: 100%;
+}
+
+.orta .bolum2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.orta .bolum2 .kutu {
+  flex-basis: 290px;
+}
+
+.orta .bolum2 .kutu h2 {
+  font-size: 2rem;
+}
+
+.orta .bolum2 .kutu p {
+  font-size: 1.6rem;
+}
+
+.orta .bolum3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.orta .bolum3 h1 {
+  font-size: 2.5rem;
+}
+
+.orta .bolum3 p {
+  font-size: 1.6rem;
+}
+
+.alt {
+  margin-top: 20px;
+  padding: 20px 0;
+  display: flex;
+  gap: 20px;
+}
+.alt .baglanti {
+  flex-grow: 1;
+}
+
+.alt .baglanti ul li {
+  border-bottom: dotted 1px #fcb941;
+  margin: 5px 0;
+}
+
+.alt .baglanti a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fcb941;
+}
+
+.cizgi {
+  border-top: dotted 1px #fcb941;
+  margin: 20px 0;
+}
+
+.alt-kenar-10 {
+  border-bottom: 10px solid #fcb941;
+}
